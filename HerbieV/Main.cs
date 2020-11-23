@@ -8,6 +8,8 @@ namespace HerbieV
     {
         private const int ChromeWheel = 50;
         private const int Category = 0;
+        private const int ChromeWheel2 = 51;
+        private const int ChromeWheel3 = 52;
         public Main()
         {
             Tick += OnTick;
