@@ -2,10 +2,10 @@
 {
 	VW = Volkswagen
 	1963beetle = Beetle
-	1963beetle_eu_bum_f = EU Spec Front Bumper
-	1963beetle_eu_bum_r = EU Spec Rear Bumper
-	1963beetle_eu_noplate_bum_f = EU Spec Front Bumper without License Plate
-	1963beetle_eu_sideplate_bum_f = EU Spec Front Bumper with Alternative License Plate
+	1963beetle_eu_bum_f = EU Market Front Bumper
+	1963beetle_eu_bum_r = EU Market Rear Bumper
+	1963beetle_eu_noplate_bum_f = EU Market Front Bumper without License Plate
+	1963beetle_eu_sideplate_bum_f = EU Market Front Bumper with Alternative License Plate
 	1963beetle_no_bum_f = Remove Front Bumper
 	1963beetle_no_bum_r = Remove Rear Bumper
 	1963beetle_rollcage_a = Rollcage A
@@ -15,8 +15,8 @@
 	1963beetle_roofrack_bag = Roof Rack with Cargo
 	1963beetle_roofrack_surf = Roof Rack with Surfboard
 	1963beetle_sunroof = Sunroof
-	1963beetle_us_noplate_bum_f = US Spec Front Bumper without License Plate
-	1963beetle_us_sideplate_bum_f = US Spec Front Bumper with Alternative License Plate
+	1963beetle_us_noplate_bum_f = US Market Front Bumper without License Plate
+	1963beetle_us_sideplate_bum_f = US Market Front Bumper with Alternative License Plate
 	1963beetle_windshieldplate = Interior License Plate
 	1963beetle_windshieldplate2 = Interior License Plate 2
 	herbie_2005fl = "Herbie Fully Loaded" Livery
