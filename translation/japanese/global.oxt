@@ -1,0 +1,38 @@
+﻿Version 2 30
+{
+	VW = フォルクスワーゲン
+	1963beetle = ビートル
+	1963beetle_eu_bum_f = EDMフロントバンパー
+	1963beetle_eu_bum_r = EDMリアバンパー
+	1963beetle_eu_noplate_bum_f = ナンバープレートなしのEDMフロントバンパー
+	1963beetle_eu_sideplate_bum_f = 代替ナンバープレート付きEDMフロントバンパー
+	1963beetle_no_bum_f = フロントバンパーを取り外した
+	1963beetle_no_bum_r = リアバンパーを取り外した
+	1963beetle_rollcage_a = ロールケージ A
+	1963beetle_rollcage_b = ロールケージ B
+	1963beetle_rollcage_c = ロールケージ C
+	1963beetle_roofrack = 荷台
+	1963beetle_roofrack_bag = 貨物を運ぶ荷物運搬車
+	1963beetle_roofrack_surf = サーフボードを運ぶ荷物運搬車
+	1963beetle_sunroof = サンルーフ
+	1963beetle_us_noplate_bum_f = ナンバープレートなしのUSDMフロントバンパー
+	1963beetle_us_sideplate_bum_f = 代替ナンバープレート付きUSDMフロントバンパー
+	1963beetle_windshieldplate = インテリアフロントナンバープレート
+	1963beetle_windshieldplate2 = インテリアフロントナンバープレート2
+	herbie_2005fl = "ハービー/機械じかけのキューピッド" 仕着
+	herbie_2005_strace = "ハービー 〜機械仕掛けのキューピッド〜" ストリートレーサー 仕着
+	herbie_ra_mc_gb = "ハービー 続ラブ・バッグ"/"ラブバッグ/モンテカルロ大爆走"/"ビバ! ラブ・バッグ" 仕着
+	herbie_tlb1968 = "ラブ・バッグ" (1968) 仕着
+	thelovebug1997 = 新ラブバッグ/ハービー絶体絶命! 
+	herbie_tlb1968stock = ハービー 株式 仕着
+	leek_trunk = 青いガラスのエンジンリッド
+	race_bumperf = レースフロントバンパー
+	race_bumperf_carbon = カーボンファイバーレースフロントバンパー	
+	race_spoiler = レーススポイラー
+	race_spoiler_carbon = カーボンファイバーレーススポイラー
+	victor_trunk = 透明なガラス製エンジンリッド
+	1963beetle_chromewheel = クロームホイール
+	1963BEETLE_HUBCAPS = ホイールキャップの取り外し
+	1963beetle_no_rear_plate = リアナンバープレートの取り外し
+	1963beetle_no_platesupport = ナンバープレートサポートの取り外し
+}

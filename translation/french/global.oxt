@@ -1,0 +1,38 @@
+﻿Version 2 30
+{
+	
+	VW = Volkswagen
+	1963beetle = Coccinelle
+	1963beetle_eu_bum_f = Pare-chocs avant européen
+	1963beetle_eu_bum_r = Pare-chocs arrière européen
+	1963beetle_eu_noplate_bum_f = Pare-chocs avant européen sans plaque d'immatriculation
+	1963beetle_eu_sideplate_bum_f = Pare-chocs avant européen avec plaque d'immatriculation alternative
+	1963beetle_no_bum_f = Pare-chocs avant retiré
+	1963beetle_no_bum_r = Pare-chocs arrière retiré
+	1963beetle_rollcage_a = Cage de sécurité A
+	1963beetle_rollcage_b = Cage de sécurité B
+	1963beetle_rollcage_c = Cage de sécurité C
+	1963beetle_roofrack = Barre de toit
+	1963beetle_roofrack_bag =  Barre de toit avec bagages
+	1963beetle_roofrack_surf = Barre de toit avec planche de surf
+	1963beetle_sunroof = Toit ouvrant
+	1963beetle_us_noplate_bum_f = Pare-chocs avant américain sans plaque d'immatriculation
+	1963beetle_us_sideplate_bum_f = Pare-chocs avant américain avec plaque d'immatriculation alternative
+	1963beetle_windshieldplate = Plaque d'immatriculation avant intérieure 1
+	1963beetle_windshieldplate2 = Plaque d'immatriculation avant intérieure 2
+	herbie_2005fl = Livrée "La Coccinelle revient"
+	herbie_2005_strace = Livrée "La Coccinelle revient" Course de rue
+	herbie_ra_mc_gb = Livrée "Le Nouvel Amour de Coccinelle"/"La Coccinelle à Monte-Carlo"/"La Coccinelle à Mexico"
+	herbie_tlb1968 = Livrée "Un amour de Coccinelle" (1968)
+	herbie_tlb1968stock = Livrée "Choupette" d'usine
+	leek_trunk = Capot moteur vitré (bleu)
+	race_bumperf =  Pare-chocs avant de course
+	race_bumperf_carbon =  Pare-chocs avant de course en fibre de carbone
+	race_spoiler = Aileron de course
+	race_spoiler_carbon = Aileron de course en fibre de carbone
+	victor_trunk = Capot moteur vitré (transparent)
+	1963beetle_chromewheel = Jantes chromées
+	1963BEETLE_HUBCAPS = Enjoliveurs retirés
+	1963beetle_no_rear_plate = Plaque d'immatriculation arrière retirée
+	1963beetle_no_platesupport = Support de plaque retiré
+}

@@ -1,0 +1,37 @@
+﻿Version 2 30
+{
+	VW = Volkswagen
+	1963beetle = Beetle
+	1963beetle_eu_bum_f = EU Spec Front Bumper
+	1963beetle_eu_bum_r = EU Spec Rear Bumper
+	1963beetle_eu_noplate_bum_f = EU Spec Front Bumper without License Plate
+	1963beetle_eu_sideplate_bum_f = EU Spec Front Bumper with Alternative License Plate
+	1963beetle_no_bum_f = Front Bumper Removed
+	1963beetle_no_bum_r = Rear Bumper Removed
+	1963beetle_rollcage_a = Rollcage A
+	1963beetle_rollcage_b = Rollcage B
+	1963beetle_rollcage_c = Rollcage C
+	1963beetle_roofrack = Roof Rack
+	1963beetle_roofrack_bag = Roof Rack with Cargo
+	1963beetle_roofrack_surf = Roof Rack with Surfboard
+	1963beetle_sunroof = Sunroof
+	1963beetle_us_noplate_bum_f = US Spec Front Bumper without License Plate
+	1963beetle_us_sideplate_bum_f = US Spec Front Bumper with Alternative License Plate
+	1963beetle_windshieldplate = Interior Front License Plate 1
+	1963beetle_windshieldplate2 = Interior Front License Plate 2
+	herbie_2005fl = "Herbie Fully Loaded" Livery
+	herbie_2005_strace = "Herbie Fully Loaded" Street Racer Livery
+	herbie_ra_mc_gb = "Herbie Rides Again"/"Goes To Monte Carlo"/"Goes Bananas" Livery
+	herbie_tlb1968 = "The Love Bug" (1968) Livery
+	herbie_tlb1968stock = Herbie Stock Livery
+	leek_trunk = Engine Lid with Blue Glass
+	race_bumperf = Race Front Bumper
+	race_bumperf_carbon = Carbon Fiber Race Front Bumper	
+	race_spoiler = Race Spoiler
+	race_spoiler_carbon = Carbon Fiber Race Spoiler
+	victor_trunk = Engine Lid with Transparent Glass
+	1963beetle_chromewheel = Chrome wheels
+	1963BEETLE_HUBCAPS = Hubcaps Removed
+	1963beetle_no_rear_plate = Rear License Plate Removed
+	1963beetle_no_platesupport = License Plate Support Removed
+}
