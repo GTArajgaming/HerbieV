@@ -1,0 +1,6 @@
+[submodule "FusionLibrary"]
+	path = FusionLibrary
+	url = https://github.com/bttfv/FusionLibrary
+[submodule "KlangRageAudioLibrary"]
+	path = KlangRageAudioLibrary
+	url = https://github.com/bttfv/KlangRageAudioLibrary
