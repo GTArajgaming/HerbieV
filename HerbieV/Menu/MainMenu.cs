@@ -30,6 +30,8 @@ namespace HerbieV.Menu
         {
             if (sender == spawnHerbie)
                 HerbieHandler.CreateHerbie(Utils.PlayerPed.Position, Utils.PlayerPed.Heading, true);
+
+            Close();
         }
 
         public override void Tick()

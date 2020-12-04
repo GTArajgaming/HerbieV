@@ -21,6 +21,12 @@ namespace HerbieV
         {
             Tick += OnTick;
             KeyDown += Main_KeyDown;
+            Aborted += Main_Aborted;
+        }
+
+        private void Main_Aborted(object sender, EventArgs e)
+        {
+            HerbieHandler.Abort();
         }
 
         private unsafe void Main_KeyDown(object sender, KeyEventArgs e)

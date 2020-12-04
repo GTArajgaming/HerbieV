@@ -58,6 +58,7 @@
     <Compile Include="Utility\ModelHandler.cs" />
     <Compile Include="Vehicles\Herbie\Herbie.cs" />
     <Compile Include="Vehicles\Herbie\HerbieHandler.cs" />
+    <Compile Include="Vehicles\Herbie\HerbieProps.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FusionLibrary\FusionLibrary.csproj">

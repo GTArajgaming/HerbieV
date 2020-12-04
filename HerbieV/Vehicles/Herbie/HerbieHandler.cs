@@ -37,13 +37,13 @@ namespace HerbieV.Vehicles.Herbie
         {
             if (!herbiesToAdd.Contains(herbie))
                 if (!Herbies.Contains(herbie))
-                    herbiesToAdd.Contains(herbie);
+                    herbiesToAdd.Add(herbie);
         }
 
         public static void RemoveHerbie(Herbie herbie)
         {
             if (!herbiesToRemove.Contains(herbie))
-                herbiesToRemove.Contains(herbie);
+                herbiesToRemove.Add(herbie);
         }
 
         public static void Tick()

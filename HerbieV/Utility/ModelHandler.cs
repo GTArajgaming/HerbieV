@@ -13,6 +13,10 @@ namespace HerbieV.Utility
         private static Dictionary<Model, string> modelsToStrings = new Dictionary<Model, string>();
 
         public static Model VWBeetle = new Model("1963beetle");
+        public static Model FuelNeedle = new Model("1963beetle_fuel_needle");
+        public static Model SpeedNeedle = new Model("1963beetle_speed_needle");
+        public static Model TimingPulley = new Model("timing_pulley");
+        public static Model EnginePulley = new Model("engine_pulley");
 
         public static Model PreloadModel(Model model)
         {
@@ -42,7 +46,7 @@ namespace HerbieV.Utility
 
         public static void RequestModels()
         {
-            PreloadModel(VWBeetle);
+            GetAllModels().ForEach(x => PreloadModel(x));
 
             Function.Call(Hash.BUSYSPINNER_OFF);
         }
