@@ -19,7 +19,7 @@ namespace HerbieV.Vehicles.Herbie
         public AnimateProp EnginePulley { get; }
         public AnimateProp TimingPulley { get; }
         public AnimateProp FuelNeedle { get; }
-        public AnimateProp PulleyNeedle { get; }
+        public AnimateProp SpeedNeedle { get; }
 
         public HerbieProps(Herbie herbie)
         {
@@ -35,7 +35,7 @@ namespace HerbieV.Vehicles.Herbie
             TimingPulley[AnimationType.Rotation][AnimationStep.First][Coordinate.Y].DoNotInvert = true;
 
             FuelNeedle = new AnimateProp(ModelHandler.FuelNeedle, Entity, "1963beetle_fuel_needle_dummy", Vector3.Zero, Vector3.Zero);
-            PulleyNeedle = new AnimateProp(ModelHandler.TimingPulley, Entity, "1963beetle_speed_needle_dummy", Vector3.Zero, Vector3.Zero);
+            SpeedNeedle = new AnimateProp(ModelHandler.SpeedNeedle, Entity, "1963beetle_speed_needle_dummy", Vector3.Zero, Vector3.Zero);
         }
 
         public override void Dispose()
@@ -43,7 +43,7 @@ namespace HerbieV.Vehicles.Herbie
             EnginePulley.Dispose();
             TimingPulley.Dispose();
             FuelNeedle.Dispose();
-            PulleyNeedle.Dispose();
+            SpeedNeedle.Dispose();
         }
 
         public override void Play()
