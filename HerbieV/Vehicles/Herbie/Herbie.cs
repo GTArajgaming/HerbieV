@@ -16,29 +16,32 @@ namespace HerbieV.Vehicles.Herbie
 
         public HerbieProps Props { get; }
 
+        public HerbieMods Mods { get; }
+
         public Herbie(Vehicle vehicle)
         {
             Vehicle = vehicle;
 
             Vehicle.IsPersistent = true;
 
-            Vehicle.Mods.InstallModKit();
-
             Props = new HerbieProps(this);
+
+            Mods = new HerbieMods(this);
 
             HerbieHandler.AddHerbie(this);
         }
 
         public void Tick()
         {
-            Props.Process();
+            Props?.Process();
+            Mods?.Process();
         }
 
         public void Abort()
         {
-            Props.Dispose();
+            Props?.Dispose();
 
-            Vehicle.DeleteCompletely();
+            Vehicle?.DeleteCompletely();
 
             HerbieHandler.RemoveHerbie(this);
         }

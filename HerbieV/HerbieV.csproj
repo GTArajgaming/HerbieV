@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Menu\MainMenu.cs" />
     <Compile Include="Menu\MenuHandler.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Utility\ModelHandler.cs" />
     <Compile Include="Vehicles\Herbie\Herbie.cs" />
     <Compile Include="Vehicles\Herbie\HerbieHandler.cs" />
+    <Compile Include="Vehicles\Herbie\HerbieMods.cs" />
     <Compile Include="Vehicles\Herbie\HerbieProps.cs" />
   </ItemGroup>
   <ItemGroup>

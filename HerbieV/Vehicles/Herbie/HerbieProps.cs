@@ -55,6 +55,14 @@ namespace HerbieV.Vehicles.Herbie
         {
             bool engine = Vehicle.IsEngineRunning;
 
+            int rpm = (int)(Vehicle.CurrentRPM * 10);
+
+            if (engine)
+            {
+                EnginePulley[AnimationType.Rotation][AnimationStep.First][Coordinate.Y].StepRatio = rpm;
+                TimingPulley[AnimationType.Rotation][AnimationStep.First][Coordinate.Y].StepRatio = rpm;
+            }
+
             if (EnginePulley.IsPlaying != engine)
             {
                 if (engine)
