@@ -38,6 +38,23 @@ namespace HerbieV.Vehicles.Herbie
             SpeedNeedle = new AnimateProp(ModelHandler.SpeedNeedle, Entity, "1963beetle_speed_needle_dummy", Vector3.Zero, Vector3.Zero);
         }
 
+        if (Vehicle.IsEngineRunning)
+            {
+                // --- Speed ---
+                float speed = Vehicle.GetMPHSpeed();
+                SpeedNeedle = 270 * speed / 95 - 8;
+
+                if (speedRotation > 270)
+                    speedRotation = 270;
+
+                FuelNeedle = Utils.Lerp(fuelRotation, -50f, Game.LastFrameTime * 10f);
+            }
+        else
+            {
+                FuelNeedle = Utils.Lerp(fuelRotation, 0, Game.LastFrameTime * 15f);
+            }
+
+
         public override void Dispose()
         {
             EnginePulley.Dispose();
