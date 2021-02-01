@@ -9,10 +9,8 @@ install:
 
     nuget restore HerbieV.sln
 build:
-  project: HerbieV.sln
   verbosity: minimal
 after_build:
 - cmd: >-
     7z a HerbieV.zip %APPVEYOR_BUILD_FOLDER%\HerbieV\bin\Release\*
-
     appveyor PushArtifact HerbieV.zip
