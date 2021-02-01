@@ -31,7 +31,7 @@ namespace HerbieV
 
         private unsafe void Main_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F8)
+            if (e.KeyCode == Keys.F7)
                 MenuHandler.MainMenu.Open();
         }
 
